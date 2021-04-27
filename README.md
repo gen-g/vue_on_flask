@@ -16,8 +16,7 @@ vue と flaskを使ったspa(single page application)の練習です．
 
 # 事前準備
 
-```
-# 任意のディレクトリで
+``` 任意のディレクトリ
 $ brew install nodebrew
 $ vue --version
 @vue/cli 4.5.12
@@ -33,10 +32,11 @@ $ mkdir myspa
 $ cd myspa
 # frontend, backend ディレクトリどちらも一緒に管理するためここでgit init
 $ git init
-
 ```
 
 ## vueのProject作成
+
+```
 $ vue create frontend
 Vue CLI v4.5.12
 ? Please pick a preset: Manually select features
@@ -113,7 +113,8 @@ control + c で立ち上げたサーバを落とすことができます．
 
 独自のスクリプトショートカットだそうです．
 
-```Pipfile
+```
+Pipfile
 [scripts]
 variable = "shell scripts..."
 ```
