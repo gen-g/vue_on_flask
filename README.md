@@ -104,6 +104,9 @@ $ pipenv install importlib-metadata==1.12.0
 あとは，リンクの内容に従ってflaskとVue.jsを連携した環境を立ち上げます．
 
 ```
+$ cd frontend
+$ npm run build
+
 $ cd myspa/backend
 $ pipenv run start
 ```
