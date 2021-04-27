@@ -4,6 +4,7 @@ vue と flaskを使ったspa(single page application)の練習です．
 原則，[FlaskとVue.jsでSPA Webアプリ開発](https://qiita.com/y-tsutsu/items/67f71fc8430a199a3efd)に従っています．
 
 <img src="https://github.com/gen-g/vue_on_flask/blob/img/img.png" width=100%>
+
 # How to use
 
 1. $ git clone
