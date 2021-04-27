@@ -7,7 +7,7 @@ vue と flaskを使ったspa(single page application)の練習です．
 
 1. $ git clone
 2. 事前準備の実行
-3. $ pipenv run variable
+3. $ cd myspa/backend && pipenv run variable
 でVue on Flaskの環境が立ち上がります．
 
 詳しくは以下で説明します．
@@ -16,7 +16,8 @@ vue と flaskを使ったspa(single page application)の練習です．
 
 # 事前準備
 
-``` 任意のディレクトリ
+```
+# 任意のディレクトリ
 $ brew install nodebrew
 $ vue --version
 @vue/cli 4.5.12
@@ -27,7 +28,7 @@ v10.14.1
 # Projectの作成
 
 ```
-# 作りたいディレクトリ直下で 
+# 作りたいディレクトリ直下 
 $ mkdir myspa
 $ cd myspa
 # frontend, backend ディレクトリどちらも一緒に管理するためここでgit init
@@ -52,7 +53,7 @@ ion) Yes
 
 フロントエンドでサーバを起動してみる．
 ```
-# myspa内で
+# myspa
 $ cd frontend
 $ npm run serve
 ```
@@ -66,7 +67,7 @@ $ brew install pipenv # インストールしていない人向け．私はし�
 $ pipenv --version
 pipenv, version 2020.11.15
 
-# myspa内で
+# myspa
 $ mkdir backend
 $ cd backend
 $ pipenv --python 3.7
@@ -101,7 +102,7 @@ $ pipenv install importlib-metadata==1.12.0
 あとは，リンクの内容に従ってflaskとVue.jsを連携した環境を立ち上げます．
 
 ```
-$ cd backend
+$ cd myspa/backend
 $ pipenv run start
 ```
 
