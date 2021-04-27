@@ -1,4 +1,9 @@
 # vue_on_flask
+vue と flaskを使ったspa(single page application)の練習です．
+
+原則，[FlaskとVue.jsでSPA Webアプリ開発](https://qiita.com/y-tsutsu/items/67f71fc8430a199a3efd)に従っています．
+
+
 # 事前準備
 ```
 $ brew install nodebrew
